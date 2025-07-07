@@ -315,14 +315,27 @@ details[open] summary {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     margin-top: 40px;
     padding-bottom: 0px;
+    flex-wrap: wrap; 
 }
 
+@media only screen and (max-width: 600px) {
+    .social-icons {
+        flex-wrap: wrap; 
+        justify-content: center;
+        gap: 10px;
+        margin-top: 40px;
+        padding-bottom: 0px;    
+    }
+}
+
+
+
 .social-icons a img {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
     background-color: var(--background-button-color);
     border-radius: 50%;
     padding: 0;
