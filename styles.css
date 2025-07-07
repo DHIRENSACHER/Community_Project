@@ -335,7 +335,7 @@ details[open] summary {
 
 .social-icons a img {
     width: 90px;
-    height: 90px;
+    height: 90px;   
     background-color: var(--background-button-color);
     border-radius: 50%;
     padding: 0;
@@ -351,10 +351,28 @@ details[open] summary {
 
 
 h2 {
-    color: #00ADB5;
-
+    color: #00ADB5; 
     margin-bottom: 10px;
     text-align: center;
     font-size: 3rem;
     font-weight: 700;
 }
+
+
+.cta-button {
+    background:#00ADB5;
+    color:  white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: opacity 0.3s ease;
+    margin-top: 30px;
+}
+
+.cta-button:hover {
+    opacity:0.7 ;
+}
+
