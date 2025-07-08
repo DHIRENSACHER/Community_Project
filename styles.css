@@ -20,7 +20,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0 0;
     flex-wrap: wrap;
 }
 
@@ -113,7 +113,8 @@ header {
 }
 
 .streams h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
     
 }
 
@@ -298,6 +299,10 @@ details[open] summary {
     padding: 60px;
 }
 
+#connect h2 {
+    margin-top: 0;
+}
+
 #connect p {
     margin-bottom: 20px;
 }
@@ -370,9 +375,62 @@ h2 {
     box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     transition: opacity 0.3s ease;
     margin-top: 30px;
+     transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
 }
 
 .cta-button:hover {
     opacity:0.7 ;
 }
 
+.resources-section {
+  padding: 4rem 2rem;
+  background-color: #121c2a;
+  text-align: center;
+  color: white;
+}
+
+.resources-section h2 {
+  font-size: 2rem;
+  color: #00bcd4;
+  margin-bottom: 1rem;
+}
+
+.resources-section p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #ccc;
+}
+
+.resources-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.resource-card {
+  background-color: #1e293b;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+}
+
+.resource-card h3 {
+  color: #00d1ff;
+  margin-bottom: 0.5rem;
+}
+
+.resource-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+}
