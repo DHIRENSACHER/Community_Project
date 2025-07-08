@@ -384,111 +384,54 @@ h2 {
     opacity:0.7 ;
 }
 
-/* Section styling */
 .resources-section {
-  padding: 3rem 1rem;
+  padding: 2rem 3rem;
   background-color: #121c2a;
   text-align: center;
   color: white;
 }
 
-/* Heading */
 .resources-section h2 {
   font-size: 2rem;
   color: #00bcd4;
   margin-bottom: 1rem;
 }
 
-/* Sub-text */
 .resources-section p {
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   color: #ccc;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-/* Responsive grid */
 .resources-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5rem;
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 1rem;
 }
 
-/* Card styling */
 .resource-card {
   background-color: #1e293b;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease;
-  text-align: left;
+  width: 250px;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s;
 }
 
-/* Hover effect */
 .resource-card:hover {
   transform: translateY(-5px);
 }
 
-/* Card heading */
 .resource-card h3 {
   color: #00d1ff;
   margin-bottom: 0.5rem;
-  font-size: 1.25rem;
 }
 
-/* Card text */
-.resource-card p {
-  color: #ccc;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-/* Link styling */
 .resource-card a {
   display: inline-block;
   margin-top: 1rem;
   color: #00ffcc;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.95rem;
-  border: 1px solid #00ffcc;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  transition: background 0.3s ease, color 0.3s ease;
-}
-
-/* Hover for button link */
-.resource-card a:hover {
-  background-color: #00ffcc;
-  color: #121c2a;
-}
-
-/* Responsive fine-tuning */
-@media (max-width: 480px) {
-  .resources-section h2 {
-    font-size: 1.6rem;
-  }
-
-  .resources-section p {
-    font-size: 0.9rem;
-  }
-
-  .resource-card {
-    padding: 1.2rem;
-  }
-
-  .resource-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .resource-card a {
-    font-size: 0.9rem;
-    padding: 0.4rem 0.8rem;
-  }
 }
