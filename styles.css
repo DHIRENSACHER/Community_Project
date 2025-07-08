@@ -384,54 +384,68 @@ h2 {
     opacity:0.7 ;
 }
 
+/* Ensure overall layout adjusts to screen */
 .resources-section {
-  padding: 2rem 3rem;
-  background-color: #121c2a;
-  text-align: center;
-  color: white;
+  padding: 2rem 1rem;
 }
 
-.resources-section h2 {
-  font-size: 2rem;
-  color: #00bcd4;
-  margin-bottom: 1rem;
-}
-
-.resources-section p {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-  color: #ccc;
-}
-
+/* Responsive grid */
 .resources-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
+/* Resource cards adapt to container */
 .resource-card {
   background-color: #1e293b;
   padding: 1.5rem;
   border-radius: 12px;
-  width: 250px;
   box-shadow: 0 0 10px #000;
   transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.resource-card:hover {
-  transform: translateY(-5px);
+/* Text scales properly */
+.resources-section h2 {
+  font-size: 2rem;
 }
 
-.resource-card h3 {
-  color: #00d1ff;
-  margin-bottom: 0.5rem;
+.resources-section p,
+.resource-card p {
+  font-size: 1rem;
 }
 
+/* Optional: adjust link/button size for small screens */
 .resource-card a {
-  display: inline-block;
-  margin-top: 1rem;
-  color: #00ffcc;
-  text-decoration: none;
-  font-weight: bold;
+  font-size: 0.95rem;
+  padding: 0.5rem 0;
+}
+
+/* Media queries for extra fine-tuning (optional) */
+@media (max-width: 480px) {
+  .resources-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .resources-section p {
+    font-size: 0.9rem;
+  }
+
+  .resource-card {
+    padding: 1rem;
+  }
+
+  .resource-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .resource-card a {
+    font-size: 0.9rem;
+  }
 }
