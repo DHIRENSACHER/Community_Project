@@ -185,7 +185,7 @@ footer {
 }
 
 .blog h2 {
-    margin-top: 0;
+    margin: 3vh;
     font-size: 3vh;
 }
 
@@ -258,32 +258,9 @@ details[open] summary {
   gap: 1rem;
   justify-content: center;
   padding: 2rem;
+  margin: 0 10%;
 }
 
-.passion-card {
-  background: #393E46;
-  border: 1px solid #00ADB5;
-  border-radius: 8px;
-  padding: 1.5rem;
-  flex: 1 1 250px;
-  max-width: 300px;
-  box-shadow: 0 2px 6px rgba(24, 233, 198, 0.1);
-  text-align: left;
-  transition: transform 0.2s ease;
-}
-
-.passion-card:hover {
-  transform: translateY(-4px);
-}
-
-.passion-card h2 {
-  font-size: 1rem;
-  margin-top: 0;
-}
-
-.passion-card p {
-  line-height: 1.6;
-}
 
 #connect {
     padding-bottom: 40px;
@@ -307,8 +284,6 @@ details[open] summary {
 #connect p {
     margin-bottom: 20px;
 }
-
-
 
 
 .social-icons a img:hover {
@@ -385,18 +360,23 @@ h2 {
 }
 
 .resources-section {
-  padding: 2rem 3rem;
+  padding: 2rem 5rem;
   background-color: #121c2a;
   text-align: center;
   color: white;
+  margin-top: 3%;
 }
 
 .resources-section h2 {
   font-size: 2rem;
   color: #00bcd4;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
+.new {
+    margin: 0 5vw;
+}
 .resources-section p {
   font-size: 1rem;
   margin-bottom: 1rem;
