@@ -258,7 +258,6 @@ details[open] summary {
   gap: 1rem;
   justify-content: center;
   padding: 2rem;
-  margin: 0 10%;
 }
 
 
@@ -374,9 +373,6 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.new {
-    margin: 0 5vw;
-}
 .resources-section p {
   font-size: 1rem;
   margin-bottom: 1rem;
