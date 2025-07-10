@@ -360,7 +360,7 @@ h2 {
 
 .resources-section {
   padding: 2rem 5rem;
-  background-color: #121c2a;
+  background: #222831;
   text-align: center;
   color: white;
   margin-top: 3%;
@@ -368,7 +368,7 @@ h2 {
 
 .resources-section h2 {
   font-size: 2rem;
-  color: #00bcd4;
+  color: #00ADB5;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -387,27 +387,41 @@ h2 {
 }
 
 .resource-card {
-  background-color: #1e293b;
-  padding: 1.5rem;
-  border-radius: 12px;
-  width: 250px;
-  box-shadow: 0 0 10px #000;
-  transition: transform 0.3s;
+  background: #393E46;
+    padding: 2rem;
+    padding-top: 1rem;
+    width: 200px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .resource-card:hover {
-  transform: translateY(-5px);
+    
 }
 
 .resource-card h3 {
-  color: #00d1ff;
+  color: #00ADB5;
   margin-bottom: 0.5rem;
 }
 
 .resource-card a {
   display: inline-block;
   margin-top: 1rem;
-  color: #00ffcc;
+  color: #00ADB5;
   text-decoration: none;
   font-weight: bold;
+}
+
+
+.link{
+    color: rgb(51, 102, 204);
+    font-weight: 500;
+}
+
+.link:hover{
+    color: rgb(34, 87, 192);
+    text-decoration: underline;
 }
