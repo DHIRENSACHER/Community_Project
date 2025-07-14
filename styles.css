@@ -53,13 +53,13 @@ header {
 }
 
 .header-name {
-    font-weight: bold;
+
     font-size: 1.2rem;
     color: #fff;
 }
 
 .header-name pre {
-    font-weight: bold;
+
     font-size: 1.2rem;
     color: #fff;
     white-space: pre-line;
