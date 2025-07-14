@@ -426,3 +426,12 @@ h2 {
     color: rgb(34, 87, 192);
     text-decoration: underline;
 }
+
+
+.name-under-image{
+    display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;  
+  color: #ccc;    
+}
