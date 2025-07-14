@@ -430,9 +430,15 @@ h2 {
 
 .name-under-image{
     display: flex;
+    margin: 5px;
     justify-content: center; 
     align-items: center;     
     text-align: center;  
-    color: #ccc;
-    text-decoration: none;    
+    color: #ccc !important;
+    text-decoration: none !important;    
+    
+}
+
+.imgage{
+    margin-top: 10px;
 }
