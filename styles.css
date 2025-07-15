@@ -363,7 +363,7 @@ h2 {
   background: #222831;
   text-align: center;
   color: white;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .resources-section h2 {
@@ -434,11 +434,13 @@ h2 {
     justify-content: center; 
     align-items: center;     
     text-align: center;  
-    color: #ccc !important;
-    text-decoration: none !important;    
-    
+    color: #ccc !important;  
 }
 
 .imgage{
     margin-top: 10px;
+}
+
+.social-icons a {
+      text-decoration: none !important;   
 }
