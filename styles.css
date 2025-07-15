@@ -40,7 +40,6 @@ header {
 
 .header-text {
     text-align: center;
-    margin-left: 3%;
 }
 
 .header-text h1 {
@@ -49,7 +48,8 @@ header {
 }
 
 .header-text p {
-    margin: 0.5rem 0 0;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
 }
 
 .header-name {
