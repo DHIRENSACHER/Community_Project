@@ -389,8 +389,8 @@ h2 {
 
 .resource-card {
   background: #393E46;
-    padding: 2rem;
-    padding-top: 1rem;
+    padding: 1rem 2rem 2rem 2rem;
+   
     width: 200px;
     text-decoration: none;
     color: whitesmoke;
@@ -405,7 +405,7 @@ h2 {
 
 .resource-card h3 {
   color: #00ADB5;
-  margin-bottom: 0.5rem;
+  margin: 1rem 0;
 }
 
 .resource-card a {
